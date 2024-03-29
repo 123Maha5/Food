@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu ul {
+    list-style-type: none;  /*Removing bullets*/
+    z-index: 1000;
+}
+#menu ul li{
+    background-color: black;
+    border: 1px solid white;
+    width: 258px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;  /* text spacing */
+    float: left;  
+    position: relative;
+    
+}
+
+/* Making link to visible text */
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#menu ul li a:hover{
+    background-color: green;
+}
+
+#menu ul ul{
+    position: absolute;
+    /* For hide we use display- none */
+    display: none;
+}
+#menu ul li:hover >ul {
+    /* For show we use  dislay-block */
+    display: block;  
+}

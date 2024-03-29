@@ -1,0 +1,58 @@
+.top_food{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_food_prod{
+    border: 0px solid red;
+    width: 370px;
+    height: 310px;
+    float: left;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+    transition: transform 1s;
+}
+.top_food_prod:hover{
+    transform: scale(1.05);
+}
+.top_food_prod img{
+    width: 100%;
+    height: 65%;
+}
+.checked{
+    color: orange;
+}
+.starr{
+    border: 0px solid black;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-size: 18px;
+}
+.btn{
+    border: 0px solid green;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn input{
+    height: 40px;
+    width: 130px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: orange;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+.btn input:hover{
+    background-color: green;
+    color: white;
+}

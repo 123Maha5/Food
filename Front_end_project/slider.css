@@ -1,0 +1,57 @@
+#outerbox{
+    width: 1350px;
+    height: 530px;
+    overflow:hidden;
+    z-index: -1000;
+    align-items: auto;
+}
+#sliderbox{
+    position: relative;
+    width: 5400px;
+    animation-name: slide;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+#sliderbox img{
+    width: 1350px;
+    float: left;
+}
+
+@keyframes slide{
+    0%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+        left: -1350px;
+    }
+    45%
+    {
+        left: -1350px;
+    }
+    50%
+    {
+        left: -2700px;
+    }
+    70%
+    {
+        left: -2700px;
+    }
+    75%
+    {
+        left: -4050px;
+    }
+    95%
+    {
+        left: -4050px;
+    }
+    100%
+    {
+        left: -5400px;
+    }
+}
